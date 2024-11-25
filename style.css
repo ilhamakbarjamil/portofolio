@@ -1,0 +1,19 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('assets/img/hero-bg.jpg') no-repeat center center/cover;
+}
+
+/* Hover 3D Effect */
+.hover-3d {
+    transition: transform 0.3s ease;
+}
+
+.hover-3d:hover {
+    transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+}
